@@ -74,7 +74,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #f8f7f7;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -87,7 +87,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(19, 232, 37, 0.8);
   }
   .navbar-custom .nav li ul.dropdown-menu a {
     color: #333333;
@@ -225,6 +225,13 @@ hr.small {
 .post-preview > a {
   color: #333333;
 }
+.img2{
+  width: 250px;
+  border-style: double;
+  border-width: 4px;
+  border-color:#333333;
+  margin-right: 20px;
+}
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
@@ -237,7 +244,9 @@ hr.small {
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
-  font-weight: 300;
+  font-size: 22px;
+  font-family: KaiTi;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
@@ -245,6 +254,7 @@ hr.small {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
+  margin-right: 30px;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
